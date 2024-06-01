@@ -9,18 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@js-joda/core": "^5.6.2",
+    "big-integer": "^1.6.52",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "linked-list": "^3.1.0",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/file-saver": "^2.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "daisyui": "^4.11.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "typescript": "^5"
   }
 }
